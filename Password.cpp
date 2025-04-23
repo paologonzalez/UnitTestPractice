@@ -19,6 +19,22 @@ int Password::count_leading_characters(string phrase){
   return repetition;
 }
 
+// int Password::count_leading_characters(string phrase){
+//   if(phrase.length() < 1){
+//     return 0;
+//   }
+//   int count = 0;
+//   char start = phrase[0];
+//   for(int i = 0; i < phrase.length(); i++){
+//     if(phrase[i] != start){
+//       return count;
+//     }
+//     count++;
+//   }
+//   return count;
+// }
+
+
 
 /*
   receives a string and returns whether it has both at least one upper-case
